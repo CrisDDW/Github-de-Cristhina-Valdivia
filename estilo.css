@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+h1,h2{
+    text-align: center;
+    
+}
+
+body{
+    background-color: aquamarine;
+}
+
+#contenedor{
+    width: 75%;
+    margin: auto;
+    background-color: darkmagenta;
+    display: flex;
+}
+
+.tarjeta{
+    background-color: aqua;
+    margin: 30px;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+img{
+    width: 100%;
+    border-radius: 15px 15px 0 0
+}
+
+.tarjeta h2{
+    padding: 20px;
+}
+
+a{
+    display: block;
+    background-color: orangered;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px 50px; 
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: green;
+}
+
+.tarjeta:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+p{
+    margin: 10px;
+}
